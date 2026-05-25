@@ -1,5 +1,10 @@
-export default function Page() {
+import Link from 'next/link';
+
+export default function Signin() {
     return (
-        <div>This is signin page</div>
+        <div>
+            <h2>Sign In</h2>
+            <p>If you are not a member, please <Link href="/signup">sign up</Link> first.</p>
+        </div>
     )
 }

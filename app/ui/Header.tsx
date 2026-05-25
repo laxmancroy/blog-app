@@ -1,8 +1,8 @@
 const navBar = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
-    { name: 'Sign in', href: '#signin' },
-    { name: 'Sign up', href: '#signup' }
+    { name: 'Sign in', href: '/signin' },
+    { name: 'Sign up', href: '/signup' }
 ];
 
 export default function Header() {
