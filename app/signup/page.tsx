@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 export default function Signup() {
-    throw new Error('this');
     return (
         <div>
             <h2>Sign Up</h2>
