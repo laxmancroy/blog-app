@@ -29,14 +29,14 @@ export default function Header() {
             <button className="sm:hidden" onClick={() => (setMenuOpen(!menuOpen))}>menu</button>
             {menuOpen &&
                 <nav className="w-full h-screen bg-yellow-500 absolute top-0 left-0 overflow-hidden">
-                    <ul>
+                    <ul className="*:inline-block *:ml-5 *:px-4 *:py-2 *:rounded-md *:hover:bg-blue-500">
                         {
                             navBar.map(link => (
                                 <a key={link.href} href={link.href}>{link.name}</a>
                             ))
                         }
                     </ul>
-                    <button onClick={() => (setMenuOpen(false))}>close</button>
+                    <button onClick={() => (setMenuOpen(false))} className="px-4 py-2 rounded-md hover:bg-red-500 hover:cursor-pointer">close</button>
                 </nav>
 
             }

@@ -1,5 +1,10 @@
+import Hero from './ui/Hero';
+
 export default function page() {
   return (
-    <div>This is homepage</div>
+    <>
+      <Hero />
+      <div>This is homepage</div>
+    </>
   )
 }
