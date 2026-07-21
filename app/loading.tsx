@@ -1,5 +1,5 @@
 export default function Loading() {
     return (
-        <div>This is loading</div>
+        <div>Wait few seconds...</div>
     )
 }

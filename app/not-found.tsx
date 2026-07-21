@@ -1,5 +1,5 @@
 export default function NofFount() {
     return (
-        <div>This page isnt available</div>
+        <div>Sorry! You are coome in to a wrong page.</div>
     )
 }
