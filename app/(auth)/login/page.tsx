@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-export default function Signin() {
+export default function Login() {
     return (
         <div className="bg-red-600 container mx-auto">
             <div className="bg-foreground inline-block text-white rounded-md px-8 py-5 border-[1px] border-border my-10">
-                <h2 className="text-3xl mb-5">Sign In</h2>
+                <h2 className="text-3xl mb-5">Login</h2>
                 <form className="my-9 *:focus:outline-0 *:w-full">
                     <input type="text" placeholder="Email" className="border-[1px] border-border h-9 rounded-md" />
                     <br />
