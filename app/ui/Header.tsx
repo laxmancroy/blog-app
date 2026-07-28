@@ -5,8 +5,9 @@ import { useState } from 'react';
 const navBar = [
     { name: 'Home', href: '/#home' },
     { name: 'About', href: '/#about' },
+    { name: 'Dashboard', href: '/dashboard ' },
     { name: 'Contact', href: '/contact' },
-    { name: 'Sign in', href: '/login' },
+    { name: 'Sign in', href: '/signin' },
     { name: 'Sign up', href: '/signup' }
 ];
 

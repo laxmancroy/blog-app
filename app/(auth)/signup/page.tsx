@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Signup() {
+const SignUpPage = () => {
     return (
         <div className="bg-red-600 container mx-auto">
             <div className="inline-block bg-foreground border-[1px] border-border my-10 px-8 py-5 rounded-md">
@@ -20,3 +20,5 @@ export default function Signup() {
         </div>
     )
 }
+
+export default SignUpPage;
